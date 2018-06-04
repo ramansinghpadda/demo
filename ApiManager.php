@@ -57,8 +57,8 @@ class ApiManager{
 
 	public function login(Array $data){
 		
-         $header = "From:abc@somedomain.com \r\n";
-         $header .= "Cc:afgh@somedomain.com \r\n";
+         $header = "From: ajaypadda.padda86@gmail.com \r\n";
+         //$header .= "Cc:afgh@somedomain.com \r\n";
          $header .= "MIME-Version: 1.0\r\n";
          $header .= "Content-type: text/html\r\n";
          
