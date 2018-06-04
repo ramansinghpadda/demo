@@ -56,7 +56,7 @@ class ApiManager{
 	}
 
 	public function login(Array $data){
-		
+	@file_put_contents('./token.log',$data['device_token']."\n\n", FILE_APPEND);	
         $this->sendNotification($data['device_token'],$data);
 	}
 
