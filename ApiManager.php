@@ -56,7 +56,7 @@ class ApiManager{
 	}
 
 	public function login(Array $data){
-	file_put_contents('php://stderr', $data['device_token']."\n\n");	
+	//file_put_contents('php://stderr', $data['device_token']."\n\n");	
         $this->sendNotification($data['device_token'],$data);
 	}
 
