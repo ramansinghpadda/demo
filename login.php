@@ -1,7 +1,7 @@
 <?php 
 require_once dirname(__FILE__).'/config.php';
 require_once dirname(__FILE__).'/ApiManager.php';
-
+echo 'test';exit;
 
 
 if(isset($_POST['username'])){
